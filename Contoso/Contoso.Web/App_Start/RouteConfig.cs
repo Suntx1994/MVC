@@ -18,6 +18,7 @@ namespace Contoso.Web
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapMvcAttributeRoutes(); //require to use attribute route in MVC
         }
     }
 }

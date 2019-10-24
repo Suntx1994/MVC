@@ -10,7 +10,7 @@ namespace Contoso.Data
 {
     public class ContosoDBContext:DbContext
     {
-        public ContosoDBContext():base("name = ContosoMVC")
+        public ContosoDBContext():base("name = ContosoDbcontext")
         {
 
         }
