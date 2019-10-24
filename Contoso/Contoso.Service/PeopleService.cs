@@ -8,33 +8,38 @@ using Contoso.Data;
 
 namespace Contoso.Service
 {
-    //public class PeopleService
-    //{
-    //    PeopleRepository repo;
-    //    public PeopleService()
-    //    {
-    //        repo = new PeopleRepository();
-    //    }
+    public class PeopleService : IPeopleService
+    {
+        protected IPeopleRepository _peopleRepository;
+        public PeopleService(IPeopleRepository peopleRepository)
+        {
+            this._peopleRepository = peopleRepository;
+        }
+        public IEnumerable<People> GetAllPeople()
+        {
+            //throw new NotImplementedException();
+            return _peopleRepository.GetAll();
+        }
 
-    //    public void AddPeople(People p)
-    //    {
-    //        repo.Create(p);
-    //    }
+        public People GetByFirstName(string firstname)
+        {
+            //throw new NotImplementedException();
+            return _peopleRepository.GetByFirstName(firstname);
+        }
 
-    //    public IEnumerable<People> GetAllPeople()
-    //    {
-    //        var result = repo.GetAll();
-    //        return result; 
-    //    }
+        public People GetByLastName(string lastname)
+        {
+            //throw new NotImplementedException();
+            return _peopleRepository.GetByLastName(lastname);
+        }
+    }
 
-    //    public People GetPeopleById(int id)
-    //    {
-    //        return repo.GetById(id);
-    //    }
+    public interface IPeopleService
+    {
+        IEnumerable<People> GetAllPeople();
 
-    //    public void UpdatePeople(People p)
-    //    {
-    //        repo.Update(p);
-    //    }
-    //}
+        People GetByFirstName(string firstname);
+
+        People GetByLastName(string lastname);
+    }
 }

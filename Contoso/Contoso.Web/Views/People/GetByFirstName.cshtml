@@ -1,0 +1,33 @@
+﻿@model Contoso.Model.People
+@{
+    ViewBag.Title = "GetByFirstName";
+}
+
+<h2>GetByFirstName</h2>
+<hr />
+<br />
+<table>
+    @using (Html.BeginForm("GetByFirstName", "People", FormMethod.Post)) { 
+    <tr>
+        <td>
+            @Html.TextBox("FirstName")
+        </td>
+        <td>
+            <input type="submit" value="submit" />
+        </td>
+    </tr>
+    }
+</table>
+<hr />
+<br />
+<table class="table table-danger">
+    @if(Model != null)
+    {
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.FirstName</td>
+            <td>@Model.LastName</td>
+        </tr>
+    }
+</table>
+

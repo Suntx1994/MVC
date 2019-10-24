@@ -149,6 +149,7 @@ namespace Contoso.Web.App_Start
 
             //kernel.Bind<IInstructorRepository>().To<InstructorRepository>();
             kernel.Bind<ICoursesRepository>().To<CoursesRepository>();
+            kernel.Bind<IPeopleRepository>().To<PeopleRepository>();
 
 
 
@@ -164,6 +165,7 @@ namespace Contoso.Web.App_Start
             //kernel.Bind<IInstructorService>().To<InstructorService>();
 
             kernel.Bind<ICourseService>().To<CourseService>();
+            kernel.Bind<IPeopleService>().To<PeopleService>();
 
         }
 

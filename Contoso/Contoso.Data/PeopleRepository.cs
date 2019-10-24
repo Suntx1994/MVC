@@ -8,52 +8,31 @@ using Contoso.Model;
 
 namespace Contoso.Data
 {
-    //public class PeopleRepository : IRepository<People>
-    //{
-    //    public void Create(People p)
-    //    {
-    //        //throw new NotImplementedException();
-    //        using (var db = new ContosoDBContext())
-    //        {
-    //            db.Peoples.Add(p);
-    //            db.SaveChanges();
-    //        }
-    //    }
+    public class PeopleRepository : Repository<People>, IPeopleRepository
+    {
 
-    //    public IEnumerable<People> GetAll()
-    //    {
-    //        //throw new NotImplementedException();
-    //        using (var db = new ContosoDBContext())
-    //        {
-    //            return db.Peoples.ToList();
-    //        }
-    //    }
+        public PeopleRepository(ContosoDBContext context):base(context)
+        {
 
-    //    public People GetById(int id)
-    //    {
-    //        //throw new NotImplementedException();
-    //        using(var db = new ContosoDBContext())
-    //        {
-    //            return db.Peoples.Where(p => p.Id == id).SingleOrDefault();
-    //        }
-    //    }
+        }
+        public People GetByFirstName(string firstname)
+        {
+            //throw new NotImplementedException();
+            return _dbContext.Peoples.Where(p => p.FirstName == firstname).FirstOrDefault();
+        }
 
-    //    public People GetByName(string Name)
-    //    {
-    //        throw new NotImplementedException();
-    //    }
+        public People GetByLastName(string Lastname)
+        {
+            //throw new NotImplementedException();
+            return _dbContext.Peoples.Where(p => p.LastName == Lastname).FirstOrDefault();
+        }
+    }
 
-    //    public void Update(People p)
-    //    {
-    //        //throw new NotImplementedException();
-    //        using (var db = new ContosoDBContext())
-    //        {
-    //            var peoplebyid = db.Peoples.Where(x => x.Id == p.Id).SingleOrDefault();
-    //            peoplebyid.FirstName = p.FirstName;
-    //            peoplebyid.LastName = p.LastName;
-    //            peoplebyid.DateOfBirth = p.DateOfBirth;
-    //            db.SaveChanges();
-    //        }
-    //    }
-    //}
+    public interface IPeopleRepository:IRepository<People>
+    {
+        People GetByFirstName(string firstname);
+
+        People GetByLastName(string Lastname);
+
+    }
 }
