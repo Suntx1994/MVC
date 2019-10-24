@@ -1,0 +1,18 @@
+﻿@model Contoso.Model.Course
+@{
+    ViewBag.Title = "GetById";
+}
+
+<h2>GetById</h2>
+<table class="table table-hover">
+    <tr>
+        <td>Id</td>
+        <td>Title</td>
+        <td>Instructor</td>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Title</td>
+        <td>@Model.DepartId</td>
+    </tr>
+</table>

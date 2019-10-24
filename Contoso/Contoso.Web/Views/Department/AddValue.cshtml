@@ -1,0 +1,26 @@
+﻿@model Contoso.Model.Depart
+@{
+    ViewBag.Title = "AddValue";
+}
+
+<body>
+    <div>
+        @using (Html.BeginForm("AddValue", "Department", FormMethod.Post))
+        {
+            @*<p>Plz Enter Department Id</p>
+            @Html.TextBox("Id");*@
+            <p>Plz Enter Department Name</p>
+            @Html.TextBox("Name");
+            <p>Plz Enter Department Budget</p>
+            @Html.TextBox("Budget");
+            <p>Plz Enter Department StartDate</p>
+            @Html.TextBox("StartDate");
+            <p>Plz Enter Department InstructorId</p>
+            @Html.TextBox("InstructorId");
+            <p>Plz Enter Department Rowversion</p>
+            @Html.TextBox("RowVersion");
+            <input type="submit" value="submit" />
+        }
+    </div>
+</body>
+

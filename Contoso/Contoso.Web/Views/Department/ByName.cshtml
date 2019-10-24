@@ -1,0 +1,26 @@
+﻿@model Contoso.Model.Depart
+@{
+    ViewBag.Title = "ByName";
+}
+
+<body>
+    <div>
+        @using (Html.BeginForm("ByName", "Department", FormMethod.Post))
+        {
+            @Html.TextBox("Name");
+            <input type="submit" value="submit" />
+        }
+    </div>
+    <hr />
+    <br />
+    @if (Model != null) {
+    <table class="table">
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Budget</td>
+        </tr>
+    </table>
+    }
+    
+</body>

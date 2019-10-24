@@ -1,0 +1,5 @@
+C:\Users\tianx\source\repos\Contoso\Contoso.Untilities\bin\Debug\Contoso.Untilities.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Untilities\bin\Debug\Contoso.Untilities.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Untilities\obj\Debug\Contoso.Untilities.csprojAssemblyReference.cache
+C:\Users\tianx\source\repos\Contoso\Contoso.Untilities\obj\Debug\Contoso.Untilities.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Untilities\obj\Debug\Contoso.Untilities.pdb

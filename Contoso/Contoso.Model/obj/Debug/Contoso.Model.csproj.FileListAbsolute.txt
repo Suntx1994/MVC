@@ -1,0 +1,11 @@
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\Contoso.Model.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\Contoso.Model.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\obj\Debug\Contoso.Model.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\obj\Debug\Contoso.Model.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\Contoso.Model.dll.config
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\EntityFramework.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\EntityFramework.xml
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\obj\Debug\Contoso.Model.csprojAssemblyReference.cache
+C:\Users\tianx\source\repos\Contoso\Contoso.Model\obj\Debug\Contoso.Model.csproj.CopyComplete

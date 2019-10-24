@@ -1,0 +1,16 @@
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Service.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Service.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Data.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Model.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Untilities.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Data.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Model.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Untilities.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\obj\Debug\Contoso.Service.csprojAssemblyReference.cache
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\obj\Debug\Contoso.Service.csproj.CopyComplete
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\obj\Debug\Contoso.Service.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\obj\Debug\Contoso.Service.pdb
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\EntityFramework.dll
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Data.dll.config
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\Contoso.Model.dll.config
+C:\Users\tianx\source\repos\Contoso\Contoso.Service\bin\Debug\EntityFramework.xml
